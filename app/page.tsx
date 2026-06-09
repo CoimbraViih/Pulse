@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-6 px-4">
@@ -10,9 +12,9 @@ export default function HomePage() {
         </p>
       </div>
 
-      <button className="rounded-md bg-[var(--color-accent)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--color-accent-hover)]">
+      <Button className="bg-[var(--color-accent)] text-white hover:bg-[var(--color-accent-hover)]">
         Começar
-      </button>
+      </Button>
 
       <div className="flex gap-2">
         <span className="h-2 w-2 rounded-full bg-[var(--color-accent)]" />
