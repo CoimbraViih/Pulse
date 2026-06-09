@@ -14,8 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pulse — Planejador de Alta Performance",
-  description:
-    "Sistema de decisão para empreendedores solos que querem planejar com inteligência.",
+  description: "Sistema de decisão para empreendedores solos que querem planejar com inteligência.",
 };
 
 export default function RootLayout({
@@ -25,11 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="dark" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
     </html>
   );
 }

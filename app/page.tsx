@@ -4,9 +4,7 @@ export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-6 px-4">
       <div className="flex flex-col items-center gap-3 text-center">
-        <span className="text-5xl font-bold tracking-tight text-[var(--color-accent)]">
-          Pulse
-        </span>
+        <span className="text-5xl font-bold tracking-tight text-[var(--color-accent)]">Pulse</span>
         <p className="max-w-sm text-[var(--color-text-secondary)]">
           Seu sistema de decisão diário. Em breve.
         </p>
