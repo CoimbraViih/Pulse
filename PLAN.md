@@ -22,7 +22,7 @@ M0 → M1 → M2 → M3 → M4 → M5 → M6 → M7 → M8 → M9 → M10
 ---
 
 ## M0 — Project Scaffold
-**Status:** `[ ]`
+**Status:** `[x]`
 
 **Goal:** Working Next.js app deployed to Vercel with design system and tooling configured.
 
@@ -34,7 +34,7 @@ M0 → M1 → M2 → M3 → M4 → M5 → M6 → M7 → M8 → M9 → M10
 - `.env.local.example` with all future variable names stubbed
 - Vercel project linked, first deploy green
 
-**Key files:** `app/layout.tsx`, `tailwind.config.ts`, `components/ui/`, `.env.local.example`
+**Key files:** `app/layout.tsx`, `app/globals.css`, `components/ui/`, `.env.local.example`
 
 **Done when:** `/` renders a placeholder with dark background and orange accent. `vercel deploy` passes.
 
@@ -369,7 +369,7 @@ M0 → M1 → M2 → M3 → M4 → M5 → M6 → M7 → M8 → M9 → M10
 
 | Milestone | Status | Started | Completed |
 |-----------|--------|---------|-----------|
-| M0 — Project Scaffold | `[ ]` | | |
+| M0 — Project Scaffold | `[x]` | 2026-06-09 | 2026-06-09 |
 | M1 — App Shell & Navigation | `[ ]` | | |
 | M2 — Onboarding Flow (UI) | `[ ]` | | |
 | M3 — Core Daily Planner (UI) | `[ ]` | | |
